@@ -13,8 +13,8 @@
  #include "usb_serial.h"
  #include <string.h>
 
-unsigned char buffer[32];         // USB CDC outcomming data buffer
-unsigned char incommingData[32];  // USB CDC incomming data buffer
+char buffer[32];         // USB CDC outcomming data buffer
+char incommingData[32];  // USB CDC incomming data buffer
 unsigned short len = 0;
 
 void processUSBData() {
