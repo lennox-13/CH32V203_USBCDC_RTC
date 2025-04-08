@@ -7,3 +7,10 @@ Through a serial terminal, it displays the date and time from the microcontrolle
 The date and time can be set by sending a string in the format 8-4-2025 13:23:03. For RTC backup, the Vbat pin is powered by a 3V CR1620 battery. 
 The current consumption when the main power is off is only 1.2 µA, allowing the RTC to keep running for around 5. years. Everything is connected on the official WCH development board with the CH32V203C8T6 microcontroller.
 
+Test setup:
+
+![Test setup](PIC/CH32V203C8T6_RTC_USBCDC.jpg)
+
+Output:
+
+![OUTPUT](PIC/Terminal_Output.jpg)
